@@ -1,11 +1,11 @@
-package com.example.shoppinglist.presentation.adapters
+package com.example.shoppinglist.presentation.rv.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import com.example.shoppinglist.R
 import com.example.shoppinglist.domain.models.ShopItem
-import com.example.shoppinglist.presentation.viewholders.ShopItemViewHolder
+import com.example.shoppinglist.presentation.rv.viewholders.ShopItemViewHolder
 
 class ShopListAdapter :
     ListAdapter<ShopItem, ShopItemViewHolder>(ShopItemDiffCallback()) {

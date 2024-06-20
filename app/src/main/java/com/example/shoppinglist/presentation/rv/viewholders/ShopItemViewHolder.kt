@@ -1,4 +1,4 @@
-package com.example.shoppinglist.presentation.viewholders
+package com.example.shoppinglist.presentation.rv.viewholders
 
 import android.view.View
 import android.widget.TextView
