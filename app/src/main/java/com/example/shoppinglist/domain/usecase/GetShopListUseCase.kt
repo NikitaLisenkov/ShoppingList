@@ -1,7 +1,7 @@
-package com.example.shoppinglist.domain.usecases
+package com.example.shoppinglist.domain.usecase
 
 import androidx.lifecycle.LiveData
-import com.example.shoppinglist.domain.models.ShopItem
+import com.example.shoppinglist.domain.model.ShopItem
 import com.example.shoppinglist.domain.repository.ShopListRepository
 
 class GetShopListUseCase(private val shopListRepository: ShopListRepository) {

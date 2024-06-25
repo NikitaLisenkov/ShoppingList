@@ -27,7 +27,7 @@
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold"
-            tools:text="Салфетки" />
+            tools:text="@string/shop_item_name" />
 
         <TextView
             android:id="@+id/tv_count"
