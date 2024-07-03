@@ -5,13 +5,9 @@ import com.example.shoppinglist.domain.model.ShopItem
 
 interface ShopListRepository {
 
-    fun addShopItem(shopItem: ShopItem)
-
-    fun editShopItem(shopItem: ShopItem)
-
-    fun getShopItem(shopItemId: Int): ShopItem
-
+    suspend fun addShopItem(shopItem: ShopItem)
+    suspend fun editShopItem(shopItem: ShopItem)
+    suspend fun getShopItem(shopItemId: Int): ShopItem
+    suspend fun deleteShopItem(shopItem: ShopItem)
     fun getShopList(): LiveData<List<ShopItem>>
-
-    fun deleteShopItem(shopItem: ShopItem)
 }
